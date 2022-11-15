@@ -1,0 +1,409 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+}
+
+
+/* header - banner */
+
+
+/* banner */
+
+.slide .carousel-inner img {
+    height: 600px;
+}
+
+.slide .carousel-inner {
+    font-size: 18px;
+}
+
+.logo-school {
+    background-color: white;
+    width: 300px;
+}
+
+header {
+    margin-top: 120px;
+}
+
+
+/*navbar*/
+
+.menu_mobile {
+    display: none;
+}
+
+nav {
+    background-color: white;
+    border-bottom: solid 1px rgb(213, 67, 67);
+    box-shadow: white 0px 1px 10px 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+/*nav-1*/
+
+nav.fixed-top ul.nav-1 {
+    background-color: brown;
+    height: 50px;
+}
+
+.nav-1 .tel {
+    font-size: 12px;
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.nav-1 .mini_menu {
+    float: right;
+    margin: 10px;
+}
+
+.nav-1 .mini_menu li a {
+    color: white;
+    padding: 10px;
+}
+
+.nav-1 .mini_menu li:hover {
+    border-bottom: solid 1px white;
+}
+
+
+/*nav-2*/
+
+.nav-2 {
+    float: left;
+}
+
+.nav-2 .menu {
+    float: right;
+    margin-left: 100px;
+}
+
+.nav-2 li {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.nav-2 li a {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    color: rgb(3, 3, 81);
+}
+
+.nav-2 li a:hover {
+    color: brown;
+}
+
+
+/* logo-school */
+
+.nav-2 .logo {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+
+/* h1 */
+
+.H1 {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact table {
+    margin: auto;
+}
+
+.contact tr th {
+    font-size: 20px;
+    background-color: rgb(138, 201, 201);
+}
+
+.contact form table th,
+.contact form table td,
+.contact form table {
+    border: solid 1px;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+.contact span {
+    font-size: 12px;
+    background-color: red;
+    padding: 2px;
+    width: 40px;
+    border-radius: 5px;
+    float: right;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.contact_img {
+    text-align: center;
+    margin: 50px;
+}
+
+.contact_img img {
+    width: 50%;
+    border-radius: 30px;
+}
+
+
+/* Input name */
+
+.contact tr td input.name1,
+.name2,
+.name3,
+.name4 {
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+/* input post */
+
+.contact table tr td input.post1,
+.contact table tr td input.post2 {
+    width: 50px;
+    font-size: 15px;
+    border: solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact table tr td input.address {
+    font-size: 18px;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+
+/* input phone */
+
+.contact table tr td input.Phone {
+    font-size: 15px;
+    padding: 5px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+
+/* input email */
+
+.contact table tr td input.Email {
+    font-size: 18px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid 1px;
+}
+
+
+/* input apply internet */
+
+.contact table tr td i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contact table tr td i.bi-facebook {
+    color: blue;
+}
+
+.contact table tr td i.bi-line {
+    color: green;
+}
+
+.contact table tr td i.bi-instagram {
+    color: blueviolet
+}
+
+.contact table tr td input.apply_name {
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 300px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+
+/* input button */
+
+.button {
+    margin: 50px;
+    text-align: center;
+}
+
+.button input {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+}
+
+.button input:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/* fc-icon */
+
+article .fc-icon {
+    float: left;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+article .fc-icon ul li a {
+    text-decoration: none;
+}
+
+article .fc-icon ul li {
+    list-style-type: none;
+    margin: 10px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+
+/* audio */
+
+.audio {
+    display: none;
+}
+
+
+/* icon school */
+
+#mySidenav {
+    background-color: white;
+    text-align: center
+}
+
+#mySidenav i {
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#facebook i {
+    color: blue;
+}
+
+#youtube i {
+    color: red;
+}
+
+#line i {
+    color: green;
+}
+
+#instagram {
+    color: rgb(239, 11, 87);
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+
+/* Map station go to school */
+
+#map {
+    text-align: right;
+    padding: 20px;
+}
+
+
+/* footer logo */
+
+.logo_footer {
+    text-align: center;
+}
+
+.logo_footer img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+    font-size: 50px;
+}
+
+
+/* footer by name */
+
+footer .footer_by_name {
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+footer .footer_by_name a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+footer .footer_by_name .footer_access_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name .footer_menu_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name a:hover {
+    border-bottom: solid 1px;
+}
+
+.footer_by_name .by_name {
+    margin-top: 60px;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+}

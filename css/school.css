@@ -1,0 +1,360 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+}
+
+
+/* header - banner */
+
+
+/* banner */
+
+.slide .carousel-inner img {
+    height: 600px;
+}
+
+.slide .carousel-inner {
+    font-size: 18px;
+}
+
+.logo-school {
+    background-color: white;
+    width: 300px;
+}
+
+header {
+    margin-top: 120px;
+}
+
+
+/*navbar*/
+
+.menu_mobile {
+    display: none;
+}
+
+nav {
+    background-color: white;
+    border-bottom: solid 1px rgb(213, 67, 67);
+    box-shadow: white 0px 1px 10px 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+/*nav-1*/
+
+nav.fixed-top ul.nav-1 {
+    background-color: brown;
+    height: 50px;
+}
+
+.nav-1 .tel {
+    font-size: 12px;
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.nav-1 .mini_menu {
+    float: right;
+    margin: 10px;
+}
+
+.nav-1 .mini_menu li a {
+    color: white;
+    padding: 10px;
+}
+
+.nav-1 .mini_menu li:hover {
+    border-bottom: solid 1px white;
+}
+
+
+/*nav-2*/
+
+.nav-2 {
+    float: left;
+}
+
+.nav-2 .menu {
+    float: right;
+    margin-left: 100px;
+}
+
+.nav-2 li {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.nav-2 li a {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    color: rgb(3, 3, 81);
+}
+
+.nav-2 li a:hover {
+    color: brown;
+}
+
+
+/* logo-school */
+
+.nav-2 .logo {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+body h1 {
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 40px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-color: yellow;
+        left: 50px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 1000px;
+        top: 0px;
+    }
+    100% {
+        background-color: red;
+        left: 50px;
+        top: 0px;
+    }
+}
+
+body h2 {
+    text-align: center;
+    border: solid 1px;
+    background-color: brown;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body h3 {
+    text-align: center;
+    color: brown;
+    margin-top: 20px;
+    border-bottom: solid 1px;
+    padding: 20px;
+}
+
+
+/* educational_goal */
+
+.educational_goal {
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.educational_goal ul {
+    float: left;
+}
+
+.educational_goal ul li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.educational_goal img {
+    width: 400px;
+}
+
+
+/* EDUCATIONAL POLICY */
+
+.educational_policy {
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.educational_policy ul {
+    float: left;
+}
+
+.educational_policy ul li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.educational_policy img {
+    width: 400px;
+}
+
+#contact {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#contact img {
+    height: 300px;
+}
+
+#contact .noidung {
+    padding: 5px;
+    font-size: 18px;
+}
+
+.contact_1,
+.contact_2,
+.contact_3,
+.contact_4 {
+    height: auto;
+}
+
+h4 {
+    padding: 10px;
+    background-color: burlywood;
+}
+
+table {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+table tr,
+table td,
+th {
+    border: solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+table th {
+    background-color: rgb(204, 190, 190);
+}
+
+table td {
+    width: 500px;
+}
+
+
+/* icon school */
+
+#mySidenav {
+    background-color: white;
+    text-align: center
+}
+
+#mySidenav i {
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#facebook i {
+    color: blue;
+}
+
+#youtube i {
+    color: red;
+}
+
+#line i {
+    color: green;
+}
+
+#instagram {
+    color: rgb(239, 11, 87);
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+
+/* Map station go to school */
+
+#map {
+    text-align: right;
+    padding: 20px;
+}
+
+
+/* footer logo */
+
+.logo_footer {
+    text-align: center;
+}
+
+.logo_footer img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+    font-size: 50px;
+}
+
+
+/* footer by name */
+
+footer .footer_by_name {
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+footer .footer_by_name a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+footer .footer_by_name .footer_access_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name .footer_menu_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name a:hover {
+    border-bottom: solid 1px;
+}
+
+.footer_by_name .by_name {
+    margin-top: 60px;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+}

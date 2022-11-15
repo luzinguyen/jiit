@@ -1,0 +1,457 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100%;
+}
+
+
+/* header - banner */
+
+
+/* banner */
+
+.slide .carousel-inner img {
+    height: 600px;
+}
+
+.slide .carousel-inner {
+    font-size: 18px;
+}
+
+.logo-school {
+    background-color: white;
+    width: 300px;
+}
+
+header {
+    margin-top: 120px;
+}
+
+
+/*navbar*/
+
+.menu_mobile {
+    display: none;
+}
+
+nav {
+    background-color: white;
+    border-bottom: solid 1px rgb(213, 67, 67);
+    box-shadow: white 0px 1px 10px 0px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+/*nav-1*/
+
+nav.fixed-top ul.nav-1 {
+    background-color: brown;
+    height: 50px;
+}
+
+.nav-1 .tel {
+    font-size: 12px;
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+.nav-1 .mini_menu {
+    float: right;
+    margin: 10px;
+}
+
+.nav-1 .mini_menu li a {
+    color: white;
+    padding: 10px;
+}
+
+.nav-1 .mini_menu li:hover {
+    border-bottom: solid 1px white;
+}
+
+
+/*nav-2*/
+
+.nav-2 {
+    float: left;
+}
+
+.nav-2 .menu {
+    float: right;
+    margin-left: 100px;
+}
+
+.nav-2 li {
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.nav-2 li a {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+    color: rgb(3, 3, 81);
+}
+
+.nav-2 li a:hover {
+    color: brown;
+}
+
+
+/* logo-school */
+
+.nav-2 .logo {
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+
+body h1 {
+    margin-top: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 40px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+article p {
+    padding: 10x;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+@keyframes example {
+    0% {
+        background-color: yellow;
+        left: 50px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 1000px;
+        top: 0px;
+    }
+    100% {
+        background-color: red;
+        left: 50px;
+        top: 0px;
+    }
+}
+
+body h2 {
+    text-align: center;
+    border: solid 1px;
+    background-color: brown;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+body h3 {
+    text-align: center;
+    border-bottom: solid 1px;
+    color: brown;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+table tr,
+table th,
+table td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* student_information */
+
+.student_information table tr th {
+    background-color: rgb(13, 75, 231);
+    color: white;
+}
+
+.student_information table {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* it global & it enginner */
+
+.it_global ul,
+.it_enginner ul {
+    background-color: aquamarine;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 0px;
+}
+
+.it_global ul li,
+.it_enginner ul li {
+    padding: 20px;
+}
+
+
+/* ADMISSIONS OFFICE ENTRANCE EXAM & PREEMPTION EXAMINATION */
+
+.Admissions p {
+    font-size: 18px;
+    text-align: center;
+    padding: 50px;
+}
+
+.Admissions table tr th {
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
+
+.Admissions span {
+    color: red;
+    margin-left: 380px;
+}
+
+.Admissions form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* GENERAL ENTRANCE EXAMINATION */
+
+.lich p {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+
+/*ADMISSION SELECTION FEE*/
+
+.admission_fee table {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    color: white;
+    font-size: 28px;
+}
+
+.admission_fee table th {
+    background-color: burlywood;
+}
+
+.admission_fee table td {
+    background-color: darkgrey;
+}
+
+.admission_fee p {
+    color: red;
+    text-align: center;
+}
+
+
+/* ADMISSION PROCEDURE */
+
+.admission_it_enginner ul,
+.admission_it_gobal ul {
+    background-color: aquamarine;
+    font-size: 18px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 0px;
+}
+
+.admission_it_enginner ul li,
+.admission_it_gobal ul li {
+    padding: 20px;
+}
+
+.Reception_hours img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* IT ENGINEER COURSE */
+
+.engineer_year1 table th,
+.engineer_year2 table th {
+    background-color: cadetblue;
+}
+
+.engineer_year1,
+.engineer_year2 {
+    margin: 5px;
+}
+
+.engineer_year2 p {
+    text-align: center;
+}
+
+.international_year1 table th,
+.international_year2-3 table th {
+    background-color: rgb(232, 185, 41);
+}
+
+.international_year1,
+.international_year2-3 {
+    margin: 5px;
+}
+
+.international_year2-3 p {
+    margin: 20px;
+    color: red;
+}
+
+.Other_costs .p {
+    background-color: rgb(225, 40, 40);
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.Other_costs p {
+    padding: 5px;
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* icon school */
+
+#mySidenav {
+    background-color: white;
+    text-align: center
+}
+
+#mySidenav i {
+    font-size: 25px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+#facebook i {
+    color: blue;
+}
+
+#youtube i {
+    color: red;
+}
+
+#line i {
+    color: green;
+}
+
+#instagram {
+    color: rgb(239, 11, 87);
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+
+/* Map station go to school */
+
+#map {
+    text-align: right;
+    padding: 20px;
+}
+
+
+/* footer logo */
+
+.logo_footer {
+    text-align: center;
+}
+
+.logo_footer img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+    font-size: 50px;
+}
+
+
+/* footer by name */
+
+footer .footer_by_name {
+    margin-top: 20px;
+    float: left;
+    margin-left: 10px;
+}
+
+footer .footer_by_name a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+footer .footer_by_name .footer_access_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name .footer_menu_school {
+    margin-bottom: 20px;
+}
+
+footer .footer_by_name a:hover {
+    border-bottom: solid 1px;
+}
+
+.footer_by_name .by_name {
+    margin-top: 60px;
+}
+
+footer p {
+    margin-top: 10px;
+    text-align: center;
+}

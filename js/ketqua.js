@@ -5,10 +5,10 @@ function ketqua() {
         document.getElementById("img_ketqua").src = "";
     } else if (number == 20086) {
         document.getElementById("nhapsobaodanh").innerHTML = "合格、おめでとうございます。";
-        document.getElementById("img_ketqua").src = "../img/gokaku.png";
+        document.getElementById("img_ketqua").src = "../js/img/gokaku.png";
     } else {
         document.getElementById("nhapsobaodanh").innerHTML = "残念、不合格です。";
-        document.getElementById("img_ketqua").src = "../img/fugoukaku.png";
+        document.getElementById("img_ketqua").src = "../js/img/fugoukaku.png";
     }
     console.log(number);
 }

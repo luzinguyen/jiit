@@ -18,18 +18,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- link responsive -->
     <link rel="stylesheet" href="responsive/style-responsive.css">
-    <script>
-        window.onload = function() {
-
-        };
-
-        function myFunction() {
-            document.getElementById("body");
-        }
-    </script>
 </head>
 
-<body onload="myFuntion()" id="body">
+<body>
     <header>
         <nav class="fixed-top">
             <!-- menu mobile -->
@@ -61,7 +52,7 @@
                     <img src="img/logo/logo_school.png" alt="logo">
                 </div>
                 <div class="menu">
-                    <li><a href="index.html">ホーム</a></li>
+                    <li class="home"><a href="index.html">ホーム</a></li>
                     <li><a href="school.html">学校案内</a></li>
                     <li><a href="engineer.html">ITエンジニア科</a></li>
                     <li><a href="globalIT.html">国際IT科</a></li>
@@ -70,7 +61,7 @@
             </ul>
             <script src="js/menu-mobile.js"></script>
         </nav>
-        <!-- banner -->
+        <!--======================================= banner =========================================-->
         <div class="slide">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators ">
@@ -81,11 +72,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/banner/header baner1.png" class="d-block w-100" data-bs-interval="100" alt="header banner1">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>IT 言語</h5>
-                            <p class="text-center">授業中は学校のパソコンで練習します。</p>
-                        </div>
+                        <img src="img/banner/nyugakushiki.jpg" class="d-block w-100" data-bs-interval="100" alt="header banner1">
                     </div>
                     <div class="carousel-item">
                         <img src="img/banner/httpsjiit.ac.jp.png" class="d-block w-100" alt="school">
@@ -116,7 +103,7 @@
             </div>
         </div>
     </header>
-    <!-- New notification -->
+    <!--========================================== New notification =================================================-->
     <div class="notification">
         <div class="notification_h1">
             <h2 class="new_thongbao">NEW お知らせ</h2>
@@ -170,7 +157,7 @@
             </div>
             <div class="col">
                 <div class="card h-100">
-                    <a href="#"><img src="img/DSC_6049.JPG" class="card-img-top" alt="ITの言語"></a>
+                    <a href="#"><img src="img/maytinh.jpg" class="card-img-top" alt="ITの言語"></a>
                     <div class="card-body">
                         <h5 class="card-title">ITの言語</h5>
                         <p class="card-text">色々なIT言語を勉強します。WEB言語、php、JAVAプログラム、簡単ゲームの言語...</p>
@@ -218,6 +205,7 @@
     <hr>
     <!--==================================thong tin truong hoc===================================-->
     <div class="gakkojoho">
+        <!-- next japan -->
         <div class="nextjapan">
             <img src="img/nextjapan.png" alt="nextjapan">
             <div class="nextjapan-font">
@@ -225,14 +213,15 @@
                 <a href="https://nj-site.jp">詳細はこちら　<i class="bi bi-arrow-bar-right"></i></a>
             </div>
         </div>
+        <!-- du lich -->
         <div class="dulich">
             <div class="dulich-font">
                 <h3>学校と一緒に旅行にいきます。</h3>
                 <a href="https://luzinguyen.github.io/travel"><i class="bi bi-arrow-bar-left"></i> 詳細はこちら</a>
             </div>
-
             <img src="img/dulich.png" alt="dulich">
         </div>
+        <!-- pken shiken -->
         <div class="pken">
             <div class="pken-font">
                 <h3>P検3級試験は学校から申し込みが一回無料をもらいます。</h3>
@@ -242,6 +231,7 @@
         </div>
     </div>
     <hr>
+    <!--================================ article hoat dong ==========================================-->
     <article class="hoatdong">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -283,8 +273,8 @@
             </div>
         </div>
         <div class="col-md-6 p-4 ps-md-0">
-            <h5 class="mt-0">学校のビデオを紹介します。</h5>
-            <p></p>
+            <h5 class="mt-0">専門学校二ホン国際ITカレッジの学生の旅行ビデオを紹介します。</h5><br>
+            <h6>2020年学校に入ったら、専門学校二ホン国際ITカレッジ1年生は日本の色々な所へ旅行に行きまた。皆さんが楽しかった。</h6>
         </div>
     </div>
     <!-- kiem tra ket qua chung tuyen -->
@@ -305,7 +295,7 @@
         <a href="#" id="line"><i class="bi bi-line"></i></a>
         <a href="#" id="instagram"><i class="bi bi-instagram"></i></a>
     </div>
-    <!-- footer -->
+    <!--================================== footer ==========================================-->
     <footer>
         <!-- footer_by_name -->
         <div class="logo_footer">

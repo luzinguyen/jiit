@@ -107,8 +107,14 @@ nav.fixed-top ul.nav-1 {
     color: rgb(3, 3, 81);
 }
 
-.nav-2 li a:hover {
+.nav-2 li:hover {
     color: brown;
+    border-bottom: solid 3px;
+}
+
+.nav-2 li.engineer {
+    color: brown;
+    border-bottom: solid 3px;
 }
 
 

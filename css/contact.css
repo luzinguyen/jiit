@@ -82,6 +82,10 @@ nav.fixed-top ul.nav-1 {
     border-bottom: solid 1px white;
 }
 
+.nav-1 li.nav1-contact {
+    border-bottom: solid 1px white;
+}
+
 
 /*nav-2*/
 
@@ -107,7 +111,7 @@ nav.fixed-top ul.nav-1 {
     color: rgb(3, 3, 81);
 }
 
-.nav-2 li a:hover {
+.nav-2 li:hover {
     color: brown;
 }
 

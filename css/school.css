@@ -107,8 +107,14 @@ nav.fixed-top ul.nav-1 {
     color: rgb(3, 3, 81);
 }
 
-.nav-2 li a:hover {
+.nav-2 li:hover {
     color: brown;
+    border-bottom: solid 3px;
+}
+
+.nav-2 li.school {
+    color: brown;
+    border-bottom: solid 3px;
 }
 
 
@@ -211,13 +217,16 @@ body h3 {
     width: 400px;
 }
 
+
+/* CONTACT SCHOOL */
+
 #contact {
     margin-left: 10px;
     margin-right: 10px;
 }
 
 #contact img {
-    height: 300px;
+    height: 400px;
 }
 
 #contact .noidung {

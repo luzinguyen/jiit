@@ -93,7 +93,12 @@
         color: rgb(3, 3, 81);
     }
     
-    .nav-2 li a:hover {
+    .nav-2 li:hover {
+        color: brown;
+        border-bottom: solid 3px;
+    }
+    
+    .nav-2 li.home {
         color: brown;
         border-bottom: solid 3px;
     }
@@ -237,7 +242,7 @@
     .gakkojoho .nextjapan .nextjapan-font h3 {
         text-align: center;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     
     .gakkojoho .nextjapan .nextjapan-font a {
@@ -253,6 +258,7 @@
         margin-top: 5%;
         text-align: center;
         width: 500px;
+        margin-right: 10%;
     }
     
     .gakkojoho .pken .pken-font h3 {

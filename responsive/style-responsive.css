@@ -1,6 +1,6 @@
 /* responsive mobile */
 
-@media only screen and (max-width: 650px) {
+@media screen and (max-width 768px)) {
     .container {
         display: inline-block;
         cursor: pointer;

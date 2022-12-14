@@ -70,11 +70,9 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .nav-2 li:hover {
-        color: brown;
         border-bottom: none;
     }
     .nav-2 li.home {
-        color: brown;
         border-bottom: none;
     }
     .nav-2 li a:hover {
@@ -162,7 +160,7 @@
         margin-left: 5%;
     }
     .gakkojoho .dulich a {
-        margin-right: 5%;
+        margin-right: 15%;
     }
     .gakkojoho a {
         background-color: rgb(253, 187, 65);
@@ -183,16 +181,33 @@
         font-size: 14px;
     }
     .gakkojoho .pken .pken-font {
+        width: 200px;
         float: right;
-        margin-top: 5%;
-        text-align: center;
-        width: 300px;
-        margin-right: 5%;
+        margin-right: 2%;
     }
     .gakkojoho .pken .pken-font h3 {
         margin-bottom: 20px;
         float: right;
         font-size: 14px;
+    }
+    .gakkojoho .dulich .dulich-font {
+        float: left;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .gakkojoho .dulich .dulich-font h3 {
+        margin-bottom: 10%;
+        font-size: 14px;
+    }
+    /* footer */
+    footer {
+        height: 350px;
+    }
+    footer .footer_by_name a {
+        font-size: 14px;
+    }
+    footer #map iframe {
+        display: none;
     }
 }
 

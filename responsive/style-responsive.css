@@ -1,6 +1,6 @@
 /* responsive mobile */
 
-@media screen and (max-width 768px)) {
+@media screen and (max-width: 768px) {
     .container {
         display: inline-block;
         cursor: pointer;
@@ -56,23 +56,30 @@
         height: auto;
     }
     .nav-2 li {
-        padding: 10px;
-        width: auto;
-        margin: 0px;
         text-align: none;
         width: 100%;
-        margin-bottom: 10px;
-        background-color: brown;
+        margin-bottom: 20px;
     }
     .nav-2 li a {
+        padding: 10px;
+        float: left;
+        width: 100%;
+        background-color: brown;
         color: white;
         font-size: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding: 5px;
+    }
+    .nav-2 li:hover {
+        color: brown;
+        border-bottom: none;
+    }
+    .nav-2 li.home {
+        color: brown;
+        border-bottom: none;
     }
     .nav-2 li a:hover {
         color: green;
-        border-bottom: none;
+        border-bottom: none 0px;
     }
     /* logo-school */
     .nav-2 .logo {
@@ -93,8 +100,8 @@
     }
     /* New notification */
     .notification {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
     }
     .notification .notification_h1 .updates_notification p {
         float: left;
@@ -112,8 +119,8 @@
         margin-bottom: 10px;
     }
     .notification .updates_notification {
-        padding: 5px;
-        margin: 5px;
+        padding: 2px;
+        margin: 2px;
     }
     .notification .updates_notification p.title_information:hover {
         border-bottom: 1px solid;
@@ -135,12 +142,12 @@
     }
     /* notification_h1 */
     .notification {
+        height: 400px;
         padding-top: 30px;
         text-align: center;
-        height: 500px;
         background-image: url("../img/background/background2.jpg");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: auto;
     }
     /* hoatdong_student */
     .hoatdong_student .col img {
@@ -148,6 +155,44 @@
     }
     .hoatdong_student {
         padding: 10px;
+    }
+    /* gakko joho */
+    .gakkojoho .nextjapan a,
+    .gakkojoho .pken a {
+        margin-left: 5%;
+    }
+    .gakkojoho .dulich a {
+        margin-right: 5%;
+    }
+    .gakkojoho a {
+        background-color: rgb(253, 187, 65);
+        padding: 10px;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+    }
+    .gakkojoho .nextjapan .nextjapan-font {
+        width: 200px;
+        float: right;
+        margin-right: 2%;
+    }
+    .gakkojoho .nextjapan .nextjapan-font h3 {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .gakkojoho .pken .pken-font {
+        float: right;
+        margin-top: 5%;
+        text-align: center;
+        width: 300px;
+        margin-right: 5%;
+    }
+    .gakkojoho .pken .pken-font h3 {
+        margin-bottom: 20px;
+        float: right;
+        font-size: 14px;
     }
 }
 
